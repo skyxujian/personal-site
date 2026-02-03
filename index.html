@@ -1,20 +1,129 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>徐健 | 个人网站</title>
-    <script>
-        // 根据浏览器语言自动重定向
-        var lang = navigator.language || navigator.userLanguage;
-        if (lang.startsWith('en')) {
-            window.location.href = '/en/';
-        } else {
-            window.location.href = '/zh/';
-        }
-    </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>徐键｜笔记与文章</title>
+
+  <meta name="description" content="徐键的个人网站：运维、自动化、工程实践与随笔。">
+  <meta name="author" content="Xu Jian">
+
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
+
 <body>
-    <p>正在加载... / Loading...</p>
+  <!-- 顶部页眉：纸张感 + 细线 -->
+  <header class="site-header">
+    <div class="container">
+      <div class="masthead">
+        <div class="brand">
+          <a href="/" class="brand-title">Xu Jian</a>
+          <div class="brand-sub">运维 · 自动化 · 工程实践</div>
+        </div>
+
+        <nav class="nav">
+          <a href="/" class="is-active">Home</a>
+          <a href="/blog/">Blog</a>
+          <a href="/travel/">旅行</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="/en/">EN</a>
+        </nav>
+      </div>
+
+      <div class="rule"></div>
+    </div>
+  </header>
+
+  <!-- 横幅：桌面/风景类插图 -->
+  <section class="banner">
+    <div class="container">
+      <div class="banner-frame">
+        <img src="/assets/img/banner.jpg" alt="Banner" loading="lazy">
+        <div class="banner-caption">
+          <div class="cap-top">Notes & Practice</div>
+          <div class="cap-title">写点可长期复用的东西</div>
+          <div class="cap-sub">运维 / 自动化 / 经验复盘 / 工具记录</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 主体：文章列表（第一屏进入阅读） -->
+  <main class="container main">
+    <div class="layout">
+      <!-- 左侧文章列表 -->
+      <section class="posts">
+        <h2 class="section-title">最新文章</h2>
+
+        <!-- 文章条目：你后面把链接改成真实文章即可 -->
+        <article class="post-item">
+          <h3><a href="/blog/posts/2026-02-english-study-plan.html">英语听说能力提升90天计划</a></h3>
+          <div class="post-meta">2026-02 · 学习计划</div>
+          <p class="post-excerpt">
+            分三阶段打底、强化、输出，配套资源与每周检测，适合四级水平的可执行清单。
+          </p>
+        </article>
+
+        <article class="post-item">
+          <h3><a href="/blog/posts/2025-02-nginx-notes.html">Nginx 部署与常见坑：一份可复用清单</a></h3>
+          <div class="post-meta">2025-02 · 基础设施</div>
+          <p class="post-excerpt">
+            从 root / 静态资源路径 / 缓存，到 reload 与排错的最短路径。写给未来的自己。
+          </p>
+        </article>
+
+        <article class="post-item">
+          <h3><a href="/blog/posts/2025-01-first-post.html">个人站的正确打开方式：本地装修 → 打包 → 上线</a></h3>
+          <div class="post-meta">2025-01 · 工作流</div>
+          <p class="post-excerpt">
+            不在 VPS 上来回改，避免缓存与路径混乱；用阶段性 zip 留存版本，最省心。
+          </p>
+        </article>
+
+        <article class="post-item">
+          <h3><a href="/blog/">更多文章 →</a></h3>
+          <div class="post-meta">持续更新</div>
+          <p class="post-excerpt">
+            进入 Blog 查看全部文章与分类。
+          </p>
+        </article>
+      </section>
+
+      <!-- 右侧栏（克制，不花哨） -->
+      <aside class="sidebar">
+        <div class="side-card">
+          <h3 class="side-title">关于</h3>
+          <p class="side-text" id="about">
+            我做 IT 运维与自动化，倾向“可验证、可维护、可复用”的工程实践。
+            这里记录经验清单、工具笔记与复盘。
+          </p>
+        </div>
+
+        <div class="side-card">
+          <h3 class="side-title">快速入口</h3>
+          <ul class="side-links">
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="/en/">English</a></li>
+          </ul>
+        </div>
+
+        <div class="side-card" id="contact">
+          <h3 class="side-title">联系</h3>
+          <p class="side-text">
+            Email：<a href="mailto:skyxujian09102@gmail.com">skyxujian09102@gmail.com</a>
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="site-footer">
+      <div class="rule"></div>
+      <div class="footer-text">© 2026 Xu Jian</div>
+    </footer>
+  </main>
+
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>

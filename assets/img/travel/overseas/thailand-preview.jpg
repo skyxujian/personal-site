@@ -1,0 +1,10 @@
+<!-- 泰国预览图 - 金色寺庙 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#87ceeb"/>
+  <path d="M 200 400 L 250 250 L 300 400 Z" fill="#ffd700"/>
+  <path d="M 400 400 L 450 200 L 500 400 Z" fill="#ffd700"/>
+  <path d="M 500 400 L 550 250 L 600 400 Z" fill="#ffd700"/>
+  <rect y="400" width="800" height="200" fill="#90ee90"/>
+  <circle cx="100" cy="100" r="50" fill="#ffeb3b"/>
+  <text x="400" y="550" font-family="Arial" font-size="32" fill="#333" text-anchor="middle">泰国佛寺</text>
+</svg>

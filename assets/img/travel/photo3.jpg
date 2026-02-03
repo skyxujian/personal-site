@@ -1,0 +1,11 @@
+<!-- 照片3 - 城市夜景 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#1a1a2e"/>
+  <rect x="100" y="200" width="60" height="200" fill="#424242"/>
+  <rect x="200" y="150" width="70" height="250" fill="#424242"/>
+  <rect x="320" y="180" width="80" height="220" fill="#424242"/>
+  <rect x="450" y="160" width="65" height="240" fill="#424242"/>
+  <circle cx="80" cy="60" r="25" fill="#ffeb3b" opacity="0.8"/>
+  <rect x="110" y="220" width="15" height="20" fill="#ffeb3b" opacity="0.7"/>
+  <rect x="135" y="250" width="15" height="20" fill="#ffeb3b" opacity="0.7"/>
+</svg>

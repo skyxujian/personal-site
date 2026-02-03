@@ -1,0 +1,10 @@
+<!-- 日本预览图 - 京都寺庙 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fef5f1"/>
+  <rect x="200" y="200" width="400" height="300" fill="#8b4513"/>
+  <path d="M 150 200 L 400 100 L 650 200 Z" fill="#c41e3a"/>
+  <rect x="350" y="350" width="100" height="150" fill="#654321"/>
+  <circle cx="600" cy="150" r="60" fill="#ff69b4" opacity="0.6"/>
+  <circle cx="150" cy="180" r="50" fill="#ff69b4" opacity="0.5"/>
+  <text x="400" y="550" font-family="Arial" font-size="32" fill="#333" text-anchor="middle">京都古寺</text>
+</svg>

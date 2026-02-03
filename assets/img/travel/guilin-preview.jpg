@@ -1,0 +1,10 @@
+<!-- 这是一个占位SVG图片，用于展示桂林山水 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e0f2f7"/>
+  <path d="M 0 500 L 800 500 L 800 600 L 0 600 Z" fill="#64b5f6" opacity="0.6"/>
+  <path d="M 150 500 L 180 400 L 200 300 L 170 500 Z" fill="#558b2f"/>
+  <path d="M 350 500 L 380 350 L 400 250 L 420 350 L 450 500 Z" fill="#689f38"/>
+  <path d="M 550 500 L 580 400 L 600 320 L 620 400 L 650 500 Z" fill="#558b2f"/>
+  <ellipse cx="200" cy="480" rx="60" ry="15" fill="#8d6e63"/>
+  <text x="400" y="550" font-family="Arial" font-size="32" fill="#333" text-anchor="middle">桂林漓江</text>
+</svg>

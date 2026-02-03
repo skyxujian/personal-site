@@ -1,0 +1,8 @@
+<!-- 照片4 - 湖泊 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="200" fill="#e0f7fa"/>
+  <rect y="200" width="600" height="200" fill="#4dd0e1"/>
+  <circle cx="300" cy="120" r="30" fill="#fff" opacity="0.5"/>
+  <circle cx="320" cy="115" r="35" fill="#fff" opacity="0.4"/>
+  <ellipse cx="300" cy="300" rx="150" ry="40" fill="#0288d1" opacity="0.3"/>
+</svg>

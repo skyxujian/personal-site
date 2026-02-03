@@ -1,0 +1,8 @@
+<!-- 这是一个占位SVG图片，用于展示旅行照片 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e8f4f8"/>
+  <circle cx="400" cy="250" r="80" fill="#ffd700"/>
+  <path d="M 100 400 Q 200 350 300 380 T 500 360 T 700 400" fill="#4a90e2" opacity="0.7"/>
+  <path d="M 0 450 L 150 420 L 250 380 L 350 400 L 450 390 L 550 410 L 650 395 L 800 420 L 800 600 L 0 600 Z" fill="#5fa777"/>
+  <text x="400" y="500" font-family="Arial" font-size="32" fill="#333" text-anchor="middle">云南丽江古城</text>
+</svg>
