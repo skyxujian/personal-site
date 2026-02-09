@@ -3,30 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>徐键｜笔记与文章</title>
+  <title>徐键｜运维工程师</title>
 
-  <meta name="description" content="徐键的个人网站：运维、自动化、工程实践与随笔。">
+  <meta name="description" content="徐键 - IT 运维工程师，分享可复用的工程实践、自动化方案与经验沉淀。">
   <meta name="author" content="Xu Jian">
 
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
 <body>
-  <!-- 顶部页眉：纸张感 + 细线 -->
+  <!-- 顶部页眉 -->
   <header class="site-header">
     <div class="container">
       <div class="masthead">
         <div class="brand">
-          <a href="/" class="brand-title">Xu Jian</a>
           <div class="brand-sub">运维 · 自动化 · 工程实践</div>
         </div>
 
         <nav class="nav">
           <a href="/" class="is-active">Home</a>
-          <a href="/blog/">Blog</a>
-          <a href="/travel/">旅行</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#portfolio">作品</a>
+          <a href="#blog">博客</a>
+          <a href="#about">关于</a>
+          <a href="#contact">联系</a>
           <a href="/en/">EN</a>
         </nav>
       </div>
@@ -35,92 +34,142 @@
     </div>
   </header>
 
-  <!-- 横幅：桌面/风景类插图 -->
+  <!-- 主页英雄区 -->
   <section class="banner">
     <div class="container">
-      <div class="banner-frame">
-        <img src="/assets/img/banner.jpg" alt="Banner" loading="lazy">
-        <div class="banner-caption">
-          <div class="cap-top">Notes & Practice</div>
-          <div class="cap-title">写点可长期复用的东西</div>
-          <div class="cap-sub">运维 / 自动化 / 经验复盘 / 工具记录</div>
+      <div class="hero-panel">
+        <div class="hero-text">
+          <div class="hero-kicker">Hi, I'm Xu Jian</div>
+          <h1 class="hero-title">构建可复用的运维体系</h1>
+          <p class="hero-sub">让基础设施自动化、高效、可维护</p>
+        </div>
+        <div class="hero-banner-img">
+          <img src="/assets/img/beijing.jpg" alt="Banner" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 主体：文章列表（第一屏进入阅读） -->
-  <main class="container main">
-    <div class="layout">
-      <!-- 左侧文章列表 -->
-      <section class="posts">
-        <h2 class="section-title">最新文章</h2>
-
-        <!-- 文章条目：你后面把链接改成真实文章即可 -->
-        <article class="post-item">
-          <h3><a href="/blog/posts/2026-02-english-study-plan.html">英语听说能力提升90天计划</a></h3>
-          <div class="post-meta">2026-02 · 学习计划</div>
-          <p class="post-excerpt">
-            分三阶段打底、强化、输出，配套资源与每周检测，适合四级水平的可执行清单。
-          </p>
-        </article>
-
-        <article class="post-item">
-          <h3><a href="/blog/posts/2025-02-nginx-notes.html">Nginx 部署与常见坑：一份可复用清单</a></h3>
-          <div class="post-meta">2025-02 · 基础设施</div>
-          <p class="post-excerpt">
-            从 root / 静态资源路径 / 缓存，到 reload 与排错的最短路径。写给未来的自己。
-          </p>
-        </article>
-
-        <article class="post-item">
-          <h3><a href="/blog/posts/2025-01-first-post.html">个人站的正确打开方式：本地装修 → 打包 → 上线</a></h3>
-          <div class="post-meta">2025-01 · 工作流</div>
-          <p class="post-excerpt">
-            不在 VPS 上来回改，避免缓存与路径混乱；用阶段性 zip 留存版本，最省心。
-          </p>
-        </article>
-
-        <article class="post-item">
-          <h3><a href="/blog/">更多文章 →</a></h3>
-          <div class="post-meta">持续更新</div>
-          <p class="post-excerpt">
-            进入 Blog 查看全部文章与分类。
-          </p>
-        </article>
-      </section>
-
-      <!-- 右侧栏（克制，不花哨） -->
-      <aside class="sidebar">
-        <div class="side-card">
-          <h3 class="side-title">关于</h3>
-          <p class="side-text" id="about">
-            我做 IT 运维与自动化，倾向“可验证、可维护、可复用”的工程实践。
-            这里记录经验清单、工具笔记与复盘。
-          </p>
+  <!-- 主体 -->
+  <main class="main">
+    <!-- 1. 核心价值 -->
+    <section class="value-section">
+      <div class="container">
+        <div class="value-card">
+          <h2>你是谁</h2>
+          <p>我是徐键，一名 IT 运维工程师，专注于基础设施自动化与运维体系建设。</p>
+          <p class="value-core">💡 <strong>核心价值</strong>：用系统化思维解决复杂问题，让运维工作可沉淀、可复用、可扩展。</p>
         </div>
+      </div>
+    </section>
 
-        <div class="side-card">
-          <h3 class="side-title">快速入口</h3>
-          <ul class="side-links">
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="/en/">English</a></li>
+    <!-- 2. 作品集 -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">作品集</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <div class="portfolio-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+            <h3>Nginx 部署最佳实践</h3>
+            <p>从配置到优化，一份完整的生产级指南</p>
+            <a href="/blog/posts/2025-02-nginx-notes.html" class="portfolio-link">查看详情 →</a>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+            <h3>自动化工作流设计</h3>
+            <p>从本地开发到线上部署的完整流程</p>
+            <a href="/blog/posts/2025-01-first-post.html" class="portfolio-link">查看详情 →</a>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+            <h3>运维知识库建设</h3>
+            <p>系统化积累，经验沉淀与复用</p>
+            <a href="/blog/" class="portfolio-link">查看详情 →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 关于我 -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2 class="section-title">关于我</h2>
+        <div class="about-content">
+          <p>我在运维领域工作多年，见证了从传统手工运维到云原生自动化的演进。我相信<strong>可验证、可维护、可复用</strong>是好的工程实践的核心。</p>
+          <p>在这个网站上，我分享：</p>
+          <ul class="about-list">
+            <li>📌 <strong>经验清单</strong> - 经过验证的最佳实践与踩坑总结</li>
+            <li>🛠 <strong>工具笔记</strong> - 高效工作流的搭建与优化</li>
+            <li>💭 <strong>复盘思考</strong> - 项目中的决策与反思</li>
+            <li>🎯 <strong>学习计划</strong> - 持续成长的路线图</li>
           </ul>
+          <p>热爱旅行、阅读、摄影。<a href="/travel/">👉 看我的旅行足迹</a></p>
         </div>
+      </div>
+    </section>
 
-        <div class="side-card" id="contact">
-          <h3 class="side-title">联系</h3>
-          <p class="side-text">
-            Email：<a href="mailto:skyxujian09102@gmail.com">skyxujian09102@gmail.com</a>
-          </p>
+    <!-- 4. 博客 -->
+    <section class="blog-section" id="blog">
+      <div class="container">
+        <h2 class="section-title">最新文章</h2>
+        <div class="posts-grid">
+          <article class="post-card">
+            <h3><a href="/blog/posts/2026-02-english-study-plan.html">英语听说能力提升90天计划</a></h3>
+            <div class="post-meta">2026-02 · 学习计划</div>
+            <p class="post-excerpt">
+              分三阶段打底、强化、输出，配套资源与每周检测，适合四级水平的可执行清单。
+            </p>
+          </article>
+
+          <article class="post-card">
+            <h3><a href="/blog/posts/2025-02-nginx-notes.html">Nginx 部署与常见坑：一份可复用清单</a></h3>
+            <div class="post-meta">2025-02 · 基础设施</div>
+            <p class="post-excerpt">
+              从 root / 静态资源路径 / 缓存，到 reload 与排错的最短路径。写给未来的自己。
+            </p>
+          </article>
+
+          <article class="post-card">
+            <h3><a href="/blog/posts/2025-01-first-post.html">个人站的正确打开方式：本地装修 → 打包 → 上线</a></h3>
+            <div class="post-meta">2025-01 · 工作流</div>
+            <p class="post-excerpt">
+              不在 VPS 上来回改，避免缓存与路径混乱；用阶段性 zip 留存版本，最省心。
+            </p>
+          </article>
         </div>
-      </aside>
-    </div>
+        <div class="view-all">
+          <a href="/blog/">查看全部文章 →</a>
+        </div>
+      </div>
+    </section>
 
+    <!-- 5. 联系方式 -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">联系我</h2>
+        <div class="contact-content">
+          <p>有想法、问题或合作机会？欢迎通过以下方式联系我：</p>
+          <div class="contact-methods">
+            <a href="mailto:skyxujian09102@gmail.com" class="contact-item">
+              📧 <span>Email</span><br>skyxujian09102@gmail.com
+            </a>
+            <a href="/blog/" class="contact-item">
+              📝 <span>Blog</span><br>文章与思考
+            </a>
+            <a href="/travel/" class="contact-item">
+              ✈️ <span>Travel</span><br>旅行足迹
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="site-footer">
-      <div class="rule"></div>
-      <div class="footer-text">© 2026 Xu Jian</div>
+      <div class="container">
+        <div class="rule"></div>
+        <div class="footer-text">© 2026 Xu Jian · Made with ❤️</div>
+      </div>
     </footer>
   </main>
 
