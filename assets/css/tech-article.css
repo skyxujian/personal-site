@@ -1,0 +1,75 @@
+.article-page { background: #f4f1e9; }
+.article-header { position: relative; overflow: hidden; color: var(--lab-ink); background: var(--lab-bg); }
+.article-header::before { content: ""; position: absolute; inset: 0; opacity: .18; background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px); background-size: 44px 44px; }
+.article-hero { position: relative; padding-block: 72px 50px; }
+.article-breadcrumb { margin: 0 0 34px; color: #9ca5b2; font-size: 11px; letter-spacing: .5px; }
+.article-breadcrumb a { color: var(--lab-amber); text-decoration: none; }
+.article-title-grid { display: grid; grid-template-columns: 1fr .82fr; align-items: end; gap: 70px; }
+.article-title h1 { max-width: 820px; margin: 0; font-size: clamp(44px, 6.2vw, 82px); line-height: .98; letter-spacing: -4px; }
+.article-deck { margin: 25px 0 0; max-width: 760px; color: #bcc3cd; font-size: 17px; line-height: 1.75; }
+.article-facts { margin: 0; padding: 0; border-top: 1px solid var(--lab-line); list-style: none; }
+.article-facts li { display: flex; justify-content: space-between; gap: 24px; padding: 13px 0; border-bottom: 1px solid var(--lab-line); font-size: 11px; }
+.article-facts span { color: #8e97a5; text-transform: uppercase; letter-spacing: .7px; }
+.article-facts strong { text-align: right; }
+.hero-media { margin: 0; background: #0c0f13; }
+.hero-media img { display: block; width: 100%; height: auto; }
+.hero-media figcaption { padding: 10px 18px; color: #8992a0; font-size: 10px; text-align: center; }
+.article-body { padding-block: 70px 105px; }
+.disclosure-box { display: grid; grid-template-columns: 150px 1fr; gap: 28px; margin-bottom: 55px; padding: 25px 28px; border-left: 4px solid var(--lab-amber); background: #fff; box-shadow: 0 12px 32px rgba(20,24,30,.06); }
+.disclosure-box strong { color: #8a5611; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+.disclosure-box p { margin: 0; color: #505966; font-size: 13px; }
+.article-layout { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 70px; align-items: start; }
+.article-content section { margin-bottom: 72px; }
+.article-content h2 { margin: 0 0 18px; font-size: clamp(30px, 3.2vw, 46px); line-height: 1.08; letter-spacing: -1.8px; }
+.article-content h3 { margin: 28px 0 8px; font-size: 19px; }
+.article-content p { color: #555e69; font-size: 15px; line-height: 1.8; }
+.article-content .section-kicker { color: var(--lab-blue-deep); font-size: 10px; }
+.stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin: 30px 0; background: #d7d3c9; border: 1px solid #d7d3c9; }
+.stat-grid div { padding: 26px; background: #fff; }
+.stat-grid strong { display: block; color: var(--lab-blue-deep); font: 800 38px/1 ui-monospace, monospace; }
+.stat-grid span { display: block; margin-top: 10px; color: #626b76; font-size: 11px; }
+.table-wrap { overflow-x: auto; margin: 28px 0; border: 1px solid #d7d3c9; background: #fff; }
+.comparison-table { width: 100%; min-width: 920px; border-collapse: collapse; font-size: 12px; }
+.comparison-table th { padding: 13px 12px; color: #fff; background: var(--lab-blue); text-align: left; white-space: nowrap; }
+.comparison-table td { padding: 13px 12px; border-bottom: 1px solid #e2dfd6; vertical-align: top; }
+.comparison-table tbody tr:nth-child(even) { background: #f5f6f8; }
+.comparison-table td:first-child { color: #747d89; font-family: ui-monospace, monospace; }
+.comparison-table td:nth-child(2) { color: #202631; font-weight: 750; }
+.standout-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 28px; }
+.standout-card { padding: 24px; border: 1px solid #d7d3c9; background: #fff; }
+.standout-card:first-child { color: #fff; border-color: var(--lab-blue); background: var(--lab-blue); }
+.standout-card span { display: block; color: var(--lab-blue-deep); font: 800 9px ui-monospace, monospace; letter-spacing: 1px; }
+.standout-card:first-child span, .standout-card:first-child p { color: rgba(255,255,255,.78); }
+.standout-card h3 { margin: 10px 0 7px; font-size: 19px; }
+.standout-card p { margin: 0; font-size: 12px; line-height: 1.65; }
+.checklist { margin: 25px 0 0; padding: 0; list-style: none; counter-reset: guide; }
+.checklist li { position: relative; padding: 20px 0 20px 58px; border-top: 1px solid #d3cfc5; counter-increment: guide; }
+.checklist li::before { content: "0" counter(guide); position: absolute; left: 0; top: 22px; color: var(--lab-blue-deep); font: 800 11px ui-monospace, monospace; }
+.checklist strong { display: block; margin-bottom: 5px; }
+.checklist p { margin: 0; font-size: 13px; }
+.media-notice { padding: 35px; color: #d8dde5; background: var(--lab-panel); border-left: 4px solid var(--lab-blue); }
+.media-notice span { color: var(--lab-amber); font: 800 10px ui-monospace, monospace; letter-spacing: 1px; }
+.media-notice h3 { color: #fff; }
+.media-notice p { margin-bottom: 0; color: #aab2bf; }
+.article-sidebar { position: sticky; top: 105px; }
+.side-card { margin-bottom: 18px; padding: 23px; border: 1px solid #d7d3c9; background: #fff; }
+.side-card h2 { margin: 0 0 13px; font-size: 16px; }
+.side-card p { margin: 0 0 15px; color: #626b76; font-size: 12px; }
+.side-card .button { width: 100%; color: #fff; }
+.toc a { display: block; padding: 9px 0; border-bottom: 1px solid #e6e2d9; color: #4e5763; font-size: 12px; text-decoration: none; }
+.source-note { padding-top: 28px; border-top: 1px solid #cbc7bd; }
+.source-note a { color: var(--lab-blue-deep); font-weight: 700; }
+.source-note small { display: block; color: #747d88; line-height: 1.7; }
+
+@media (max-width: 900px) {
+  .article-title-grid, .article-layout { grid-template-columns: 1fr; gap: 38px; }
+  .article-facts { max-width: 480px; }
+  .article-sidebar { position: static; display: grid; grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 650px) {
+  .article-title h1 { letter-spacing: -2.5px; }
+  .article-hero { padding-block: 48px 35px; }
+  .disclosure-box, .stat-grid, .standout-grid, .article-sidebar { grid-template-columns: 1fr; }
+  .article-body { padding-block: 45px 75px; }
+}

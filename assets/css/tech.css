@@ -163,8 +163,11 @@ a { color: inherit; }
 .guide-section { color: var(--lab-ink); background: var(--lab-bg); }
 .light-heading > p { color: var(--lab-muted); }
 .guide-layout { display: grid; grid-template-columns: 1.25fr .75fr; gap: 1px; background: var(--lab-line); }
-.lead-guide { min-width: 0; background: var(--lab-panel); }
+.lead-guide { min-width: 0; color: inherit; background: var(--lab-panel); text-decoration: none; }
+.lead-guide:hover .lead-content h3 { color: #b9c7ff; }
 .lead-visual { position: relative; display: grid; min-height: 340px; place-items: center; overflow: hidden; background: radial-gradient(circle, rgba(55,103,255,.23), transparent 38%), linear-gradient(145deg, #202633, #12161d); }
+.lead-visual-published { background-image: linear-gradient(rgba(16,19,24,.18), rgba(16,19,24,.76)), url('/assets/img/tech/desktop-charging-stations-guide.png'); background-position: center; background-size: cover; }
+.lead-visual-published .power-ring { background: rgba(16,19,24,.7); backdrop-filter: blur(4px); }
 .lead-visual::before { content: ""; position: absolute; inset: 0; opacity: .3; background-image: linear-gradient(rgba(55,103,255,.22) 1px, transparent 1px), linear-gradient(90deg, rgba(55,103,255,.22) 1px, transparent 1px); background-size: 32px 32px; }
 .visual-tag { position: absolute; top: 20px; left: 22px; padding: 7px 9px; color: var(--lab-amber); border: 1px solid rgba(255,180,84,.35); font: 700 9px ui-monospace, monospace; letter-spacing: 1.1px; }
 .power-ring { position: relative; display: flex; align-items: baseline; justify-content: center; width: 182px; height: 182px; border: 3px solid var(--lab-blue); border-left-color: rgba(55,103,255,.16); border-radius: 50%; box-shadow: 0 0 60px rgba(55,103,255,.2); }
