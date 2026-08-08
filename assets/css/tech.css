@@ -207,6 +207,7 @@ a { color: inherit; }
 .contact-inner { display: flex; align-items: center; justify-content: space-between; gap: 35px; }
 .contact-inner span { font-size: 9px; font-weight: 800; letter-spacing: 1.4px; }
 .contact-inner h2 { margin-top: 7px; font-size: clamp(28px, 3.5vw, 46px); }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .lab-footer { padding-block: 50px; color: #c5cbd4; background: #0c0f13; }
 .footer-grid { display: grid; grid-template-columns: 1fr auto 1fr; gap: 50px; align-items: center; }
 .footer-brand small { color: #7d8592; }

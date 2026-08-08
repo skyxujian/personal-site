@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://webhall.xyz/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://webhall.xyz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://webhall.xyz/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://webhall.xyz/" />
+  </url>
+  <url>
+    <loc>https://webhall.xyz/en/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://webhall.xyz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://webhall.xyz/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://webhall.xyz/" />
+  </url>
+  <url><loc>https://webhall.xyz/tech/</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://webhall.xyz/tech/guides/desktop-charging-stations.html</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://webhall.xyz/blog/</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/en/blog/</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/blog/posts/2025-02-nginx-notes.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/blog/posts/2026-02-english-study-plan.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/en/blog/posts/2025-01-first-post.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/travel/</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/travel/posts/2025-05-europe.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/travel/posts/2025-07-thailand.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/travel/posts/2025-09-japan.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/travel/posts/2025-10-guilin.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/travel/posts/2025-12-chengdu.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/travel/posts/2026-01-malaysia.html</loc><lastmod>2026-02-03</lastmod></url>
+  <url><loc>https://webhall.xyz/travel/posts/2026-01-yunnan.html</loc><lastmod>2026-02-03</lastmod></url>
+</urlset>
